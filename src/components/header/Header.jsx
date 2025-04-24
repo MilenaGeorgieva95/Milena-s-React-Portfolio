@@ -8,9 +8,9 @@ export default function Header() {
           <img src="images/avatar.jpg" alt="avatar image" />
         </a>
         <h1>
-          <strong>I am Milena Georgieva</strong>,
+          <strong>I am Milena Georgieva, </strong>
           <br />
-          a Software Developer with solid grounding in React.js, JavaScript and
+          Software Developer with solid grounding in React.js, JavaScript and
           SPA applications,
           <br />
           currently at the end of the <br />
