@@ -1,3 +1,5 @@
+import ContactLinks from "../contact-links/contactLinks";
+
 export default function Header() {
   return (
     <header id="header">
@@ -17,6 +19,7 @@ export default function Header() {
           </a>{" "}
           .
         </h1>
+        <ContactLinks />
       </div>
     </header>
   );
