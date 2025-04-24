@@ -2,7 +2,7 @@ import ContactLinks from "../contact-links/contactLinks";
 
 export default function Header() {
   return (
-    <header id="header">
+    <header id="header" className="y-10">
       <div className="inner">
         <a href="#" className="image avatar">
           <img src="images/avatar.jpg" alt="avatar image" />

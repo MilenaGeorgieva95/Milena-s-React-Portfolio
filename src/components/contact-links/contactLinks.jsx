@@ -4,22 +4,23 @@ export default function ContactLinks() {
       <div className="inner">
         <ul className="icons">
           <li>
-            <a href="#" className="icon brands fa-twitter">
-              <span className="label">Twitter</span>
+            <a
+              href="https://www.linkedin.com/in/milena-georgieva95/"
+              className="icon brands fa-linkedin"
+            >
+              <span className="label">Linkedin</span>
             </a>
           </li>
           <li>
-            <a href="#" className="icon brands fa-github">
+            <a
+              href="https://github.com/MilenaGeorgieva95"
+              className="icon brands fa-github"
+            >
               <span className="label">Github</span>
             </a>
           </li>
           <li>
-            <a href="#" className="icon brands fa-dribbble">
-              <span className="label">Dribbble</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" className="icon solid fa-envelope">
+            <a href="/contacts" className="icon solid fa-envelope">
               <span className="label">Email</span>
             </a>
           </li>

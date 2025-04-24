@@ -2697,8 +2697,8 @@ input[type="button"]:disabled,
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
   color: rgba(255, 255, 255, 0.5);
-  height: 100%;
   left: 0;
+  margin-top: 5em;
   padding: 8em 4em;
   position: fixed;
   text-align: right;
