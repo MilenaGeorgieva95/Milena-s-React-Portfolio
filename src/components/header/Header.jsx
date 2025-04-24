@@ -6,13 +6,16 @@ export default function Header() {
           <img src="images/avatar.jpg" alt="avatar image" />
         </a>
         <h1>
-          <strong>I am Milena Georgieva</strong>, a Software Developer with
-          solid grounding in React.js, JavaScript and SPA applications,
+          <strong>I am Milena Georgieva</strong>,
           <br />
-          currently at the end of the <a href="https://softuni.bg/">
-            SoftUni
+          a Software Developer with solid grounding in React.js, JavaScript and
+          SPA applications,
+          <br />
+          currently at the end of the <br />
+          <a href="https://softuni.bg/">
+            SoftUni Software Engineering Program
           </a>{" "}
-          Software Engineering Program.
+          .
         </h1>
       </div>
     </header>

@@ -9,12 +9,10 @@ export default function AboutMe() {
         </h2>
       </header>
       <p>
-        Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi
-        lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis
-        tortor primis integer massa adipiscing id nisi accumsan pellentesque
-        commodo blandit enim arcu non at amet id arcu magna. Accumsan orci
-        faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque
-        cubilia.
+        Software Developer currently at the end of the @SoftUni Software
+        Engineering Program. Completed Web Developer Bootcamp 2023 with
+        JavaScript @Udemy. I have strong base in React.js, JavaScript, NodeJS,
+        MongoDB.
       </p>
       <ul className="actions">
         <li>
