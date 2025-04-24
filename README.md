@@ -1,32 +1,35 @@
 # Milena-s-React-Portfolio
 
- ## Table Of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Project-Goals](#project-goals)
-  - [Usage](#usage)
-  - [Technologies-Used](#technologies-used)
+## Table Of Contents
 
---- 
+- [Description](#description)
+- [Installation](#installation)
+- [Project-Goals](#project-goals)
+- [Usage](#usage)
+- [Technologies-Used](#technologies-used)
+
+---
 
 ## Description
+
 "Milena's React Portfolio" is an initial scaffolding of my portfolio website, built from scratch using React. The app aims to show potential employers my skills and projects.
 
---- 
+---
 
 ## Installation
- 
-- Link to deployed website: https://MilenaGeorgieva95.github.io/Milena-s-React-Portfolio/ 
---- 
+
+- Link to deployed website: https://MilenaGeorgieva95.github.io/Milena-s-React-Portfolio/
+
+---
 
 - Clone the GitHub repository to your computer.
 - Navigate to your terminal and use the following command "npm install create-react-app".
 - Navigate to your terminal and use the following command "npm start".
 
- 
 ---
 
-## Project Goals 
+## Project Goals
+
 - To be able to easily navigate through the portfolio website and find the relevant information.
 - The portfolio website to have an appealing and visually engaging design that represents my personal brand.
 - To create dedicated section to showcase my skills, including technical expertise, programming languages and tools.
@@ -35,9 +38,7 @@
 - To be intuitive, responsive and optimized for different devices and screen sizes.
 - To load quickly to ensure a seamless browsing experience for visitors.
 
-
 ---
-
 
 ## Usage
 
@@ -55,16 +56,13 @@
 - The app has a Footer as well, where the user can find icons leading to my GitHub account, LinkedIn account and my email address.
 - User experience is intuitive and easy to navigate.
 
-
 ---
 
-
 ## Technologies Used
+
 - JavaScript
 - React Js
 - React Router
 - Bootstrap
 - Tailwind
 - Font Awesome
-
-
