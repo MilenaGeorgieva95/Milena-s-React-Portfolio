@@ -1,0 +1,14 @@
+.headerContainer a {
+  border-bottom: none;
+  color: #00000099;
+}
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.navContainer a {
+  text-decoration: none;
+}

@@ -8,14 +8,18 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
+import styles from "./Navigation.module.css";
+
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white" style={{ backgroundColor: "green" }}>
+    <header className={styles.headerContainer}>
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className={
+          "mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
+        }
       >
         <div className="flex lg:hidden">
           <button
@@ -28,15 +32,22 @@ export default function Navigation() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Home
-          </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Catalog
-          </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Contacts
-          </a>
+          <div className={styles.navContainer}>
+            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+              Home
+            </a>
+          </div>
+          <div className={styles.navContainer}>
+            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+              Projects
+            </a>
+            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+              Certificates
+            </a>
+            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+              Contacts
+            </a>
+          </div>
         </PopoverGroup>
       </nav>
       <Dialog
@@ -72,7 +83,13 @@ export default function Navigation() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Catalog
+                  Projects
+                </a>
+                <a
+                  href="#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                  Certificates
                 </a>
                 <a
                   href="#"
