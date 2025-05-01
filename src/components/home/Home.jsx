@@ -5,9 +5,9 @@ import RecentWork from "./recent-work/RecentWork";
 
 export default function Home() {
   return (
-    <div id="main">
+    <>
       <AboutMe />
       <RecentWork />
-    </div>
+    </>
   );
 }
