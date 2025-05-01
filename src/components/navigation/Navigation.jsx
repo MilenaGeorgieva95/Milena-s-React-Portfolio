@@ -9,6 +9,7 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import styles from "./Navigation.module.css";
+import { Link } from "react-router";
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,20 +34,20 @@ export default function Navigation() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <div className={styles.navContainer}>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            <Link to="/" className="text-sm/6 font-semibold text-gray-900">
               Home
-            </a>
+            </Link>
           </div>
           <div className={styles.navContainer}>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            <Link to="#" className="text-sm/6 font-semibold text-gray-900">
               Projects
-            </a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            </Link>
+            <Link to="#" className="text-sm/6 font-semibold text-gray-900">
               Certificates
-            </a>
-            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            </Link>
+            <Link to="#" className="text-sm/6 font-semibold text-gray-900">
               Contacts
-            </a>
+            </Link>
           </div>
         </PopoverGroup>
       </nav>
@@ -73,30 +74,30 @@ export default function Navigation() {
                 <Disclosure as="div" className="-mx-3">
                   <DisclosurePanel className="mt-2 space-y-2"></DisclosurePanel>
                 </Disclosure>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Home
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Projects
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Certificates
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Contacts
-                </a>
+                </Link>
               </div>
             </div>
           </div>
