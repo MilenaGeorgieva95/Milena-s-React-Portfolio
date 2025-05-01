@@ -15,12 +15,10 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className={styles.headerContainer}>
+    <section className={styles.sectionContainer}>
       <nav
         aria-label="Global"
-        className={
-          "mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
-        }
+        className={"mx-auto flex items-center justify-between p-6 lg:px-8 "}
       >
         <div className="flex lg:hidden">
           <button
@@ -33,19 +31,33 @@ export default function Navigation() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <div className={styles.navContainer}>
+          <div className={styles.navLink}>
             <Link to="/" className="text-sm/6 font-semibold text-gray-900">
               Home
             </Link>
           </div>
-          <div className={styles.navContainer}>
-            <Link to="#" className="text-sm/6 font-semibold text-gray-900">
+          <div className={styles.navLinksGroup}>
+            <Link
+              to="/projects"
+              className="text-sm/6 font-semibold text-gray-900"
+            >
               Projects
             </Link>
-            <Link to="#" className="text-sm/6 font-semibold text-gray-900">
-              Certificates
+            <Link
+              to="/skills"
+              className="text-sm/6 font-semibold text-gray-900"
+            >
+              Skills and Technologies
             </Link>
-            <Link to="#" className="text-sm/6 font-semibold text-gray-900">
+            <Link to="/cv" className="text-sm/6 font-semibold text-gray-900">
+              CV
+            </Link>
+          </div>
+          <div className={styles.navLink + " " + styles.lastLink}>
+            <Link
+              to="/contacts"
+              className="text-sm/6 font-semibold text-gray-900"
+            >
               Contacts
             </Link>
           </div>
@@ -75,25 +87,31 @@ export default function Navigation() {
                   <DisclosurePanel className="mt-2 space-y-2"></DisclosurePanel>
                 </Disclosure>
                 <Link
-                  to="#"
+                  to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Home
                 </Link>
                 <Link
-                  to="#"
+                  to="/projects"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Projects
                 </Link>
                 <Link
-                  to="#"
+                  to="/skills"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Certificates
+                  Skills and Technologies
                 </Link>
                 <Link
-                  to="#"
+                  to="/cv"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                  CV
+                </Link>
+                <Link
+                  to="/contacts"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Contacts
@@ -103,6 +121,6 @@ export default function Navigation() {
           </div>
         </DialogPanel>
       </Dialog>
-    </header>
+    </section>
   );
 }

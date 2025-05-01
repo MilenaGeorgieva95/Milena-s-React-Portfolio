@@ -1,14 +1,23 @@
-.headerContainer a {
+.sectionContainer a {
   border-bottom: none;
   color: #00000099;
 }
-.navContainer {
+.navLinksGroup {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin: 10px 20px;
+  justify-content: space-around;
+  margin: 0 20px;
+  max-width: 40%;
+  flex-grow: 5;
+}
+.navLink {
+  margin: 0 40px;
+  flex-grow: 1;
+}
+.lastLink {
+  text-align: end;
 }
 
-.navContainer a {
+.navLinksGroup a {
   text-decoration: none;
 }
