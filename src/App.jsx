@@ -6,6 +6,7 @@ import Navigation from "./components/navigation/Navigation";
 import Footer from "./footer/Footer";
 import Projects from "./components/projects/Projects";
 import ProjectDetails from "./components/project-details/ProjectDetails";
+import CVPage from "./components/cv-page/CVPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             path="projects/:projectId/details"
             element={<ProjectDetails />}
           />
+          <Route path="cv" element={<CVPage />} />
         </Routes>
       </div>
       <Footer />

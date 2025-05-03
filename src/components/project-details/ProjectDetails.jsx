@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { StarIcon } from "@heroicons/react/20/solid";
 import { Radio, RadioGroup } from "@headlessui/react";
+import projects from "../../projectsData/projectsData.js";
 
 const product = {
   name: "Basic Tee 6-Pack",
