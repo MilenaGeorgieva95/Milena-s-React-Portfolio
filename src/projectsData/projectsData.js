@@ -9,6 +9,15 @@ const projects = [
     description:
       "Sprout Hub is a modern Single Page Application built with React.js, providing an interactive platform for users to create, manage, and engage with content. The project follows best practices in front-end development.",
     imageAlt: "Sprout Hub App overview image.",
+    imagesDetails: [
+      "/images/SH-register.png",
+      "/images/SH-browse.png",
+      "/images/SH-home.png",
+    ],
+    highlights: [1, 2],
+    techUsed: "React.js, JavaScript ",
+    repo: "abc",
+    link: "cba",
   },
   {
     id: 2,
@@ -20,6 +29,9 @@ const projects = [
     description:
       "Sprout Hub is a modern Single Page Application built with React.js, providing an interactive platform for users to create, manage, and engage with content. The project follows best practices in front-end development.",
     imageAlt: "Sprout Hub App overview image.",
+    imagesDetails: ["/images/SH-browse.png"],
+    highlights: [1, 2],
+    techUsed: "fasda",
   },
 ];
 
