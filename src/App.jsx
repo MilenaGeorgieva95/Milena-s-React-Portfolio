@@ -7,6 +7,7 @@ import Footer from "./footer/Footer";
 import Projects from "./components/projects/Projects";
 import ProjectDetails from "./components/project-details/ProjectDetails";
 import CVPage from "./components/cv-page/CVPage";
+import Contacts from "./components/contacts/Contacts";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             element={<ProjectDetails />}
           />
           <Route path="cv" element={<CVPage />} />
+          <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </div>
       <Footer />
