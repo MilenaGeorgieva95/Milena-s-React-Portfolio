@@ -6,7 +6,7 @@ export default function RecentWork() {
   return (
     <section id="two">
       <h2>Recent Work</h2>
-      <div className="row">
+      <div className="lg:grid lg:grid-cols-1 lg:gap-y-8">
         {projects.map((project) => {
           return (
             <article
@@ -14,7 +14,11 @@ export default function RecentWork() {
               className="col-6 col-12-xsmall work-item hover:opacity-55"
             >
               <Link to={`projects/${project.id}/details`}>
-                <img src={project.imageSrc} alt="" />
+                <img
+                  className="aspect-3/2 w-full rounded-lg object-cover"
+                  src={project.imageSrc}
+                  alt="project overview image"
+                />
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
               </Link>
@@ -22,13 +26,13 @@ export default function RecentWork() {
           );
         })}
       </div>
-      {/* <ul className="actions">
+      <ul className="actions">
         <li>
-          <Link href="#" className="button">
+          <Link to="/projects" className="button">
             Full Portfolio
           </Link>
         </li>
-      </ul> */}
+      </ul>
     </section>
   );
 }
