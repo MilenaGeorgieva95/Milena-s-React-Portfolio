@@ -26,6 +26,8 @@ const tiers = [
       "RESTful APIs",
       "Single-Page Applications",
       "Multi-Page Applications",
+      "Functional Programming",
+      "Object Oriented Programming",
     ],
   },
   {
@@ -54,10 +56,6 @@ const tiers = [
     ],
   },
 ];
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function SkillsAndTechnologies() {
   return (
