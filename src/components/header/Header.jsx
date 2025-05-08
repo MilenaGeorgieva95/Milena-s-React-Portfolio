@@ -11,8 +11,8 @@ export default function Header() {
         <h1>
           <strong>I am Milena Georgieva, </strong>
           <br />
-          Software Developer with solid grounding in React.js, JavaScript and
-          SPA applications.
+          Juniour Software Developer with solid grounding in React.js,
+          JavaScript and SPA applications.
         </h1>
         <ContactLinks />
       </div>

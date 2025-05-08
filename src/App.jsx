@@ -8,6 +8,7 @@ import Projects from "./components/projects/Projects";
 import ProjectDetails from "./components/project-details/ProjectDetails";
 import CVPage from "./components/cv-page/CVPage";
 import Contacts from "./components/contacts/Contacts";
+import SkillsAndTechnologies from "./components/skills-and-technologies/SkillsAndTechnologies";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           />
           <Route path="cv" element={<CVPage />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/skills" element={<SkillsAndTechnologies />} />
         </Routes>
       </div>
       <Footer />
