@@ -119,6 +119,11 @@ ul {
   list-style: none;
 }
 
+ol li,
+ul li {
+  list-style: none;
+}
+
 blockquote,
 q {
   quotes: none;
@@ -210,7 +215,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #49bf9d !important;
+  color: #49bf9d;
   text-decoration: none;
 }
 

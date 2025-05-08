@@ -54,22 +54,22 @@ export default function ProjectDetails() {
                   role="list"
                   className="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
                 >
-                  <li className="text-sm button">
+                  <li>
                     <a
-                      href={project.href}
+                      href={project.deployedLink}
                       aria-current="page"
-                      className="font-medium text-gray-500 hover:text-gray-600"
+                      className="button font-medium text-gray-500 hover:text-gray-600"
                     >
-                      {project.repo}
+                      {project.name} Link
                     </a>
                   </li>
-                  <li className="text-sm button">
+                  <li>
                     <a
-                      href={project.href}
+                      href={project.codeRepo}
                       aria-current="page"
-                      className="font-medium text-gray-500 hover:text-gray-600"
+                      className="button font-medium text-gray-500 hover:text-gray-600"
                     >
-                      {project.link}
+                      {project.name} Code
                     </a>
                   </li>
                 </ul>
