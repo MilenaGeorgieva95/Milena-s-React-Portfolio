@@ -20,8 +20,29 @@ const projects = [
     ],
     techUsed: "React.js, JavaScript, React-Router, UserContext, Bootstrap",
   },
-  {
+   {
     id: 2,
+    name: "Veluxe Motors",
+    deployedLink: "https://veluxe-motors.web.app/",
+    codeRepo: "https://github.com/MilenaGeorgieva95/Veluxe-Motors",
+    imageSrc: "/images/VM-home.png",
+    description:
+      "Using ReactJS, I made a car rental app that offers an interactive platform enabling users to create car listings, make bookings, search for available vehicles by location, set up accounts, manage their profiles, and interact with content such as special offers and memberships.",
+    imagesDetails: [
+      "/images/VM-appointment.png",
+      "/images/VM-car-details.png",
+      "/images/VM-about-us.png",
+    ],
+    highlights: [
+      "Car Rental React App",
+      "Authentication management",
+      "Check available dates by Location to book appointment",
+      "Create Listing functionality",
+    ],
+    techUsed: "React.js, JavaScript, React-Router, UserContext, Bootstrap",
+  },
+  {
+    id: 3,
     name: "Sole Mates",
     deployedLink: "https://sole-mates.github.io/",
     codeRepo: "https://github.com/sole-mates/sole-mates.github.io",
