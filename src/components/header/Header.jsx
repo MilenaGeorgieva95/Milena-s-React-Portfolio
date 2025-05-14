@@ -9,6 +9,7 @@ export default function Header() {
           <img src="/images/avatar.jpg" alt="avatar image" />
         </p>
         <h2>Hi, I am Milena Georgieva</h2>
+        <p>Junior Software Developer</p>
         <ContactLinks />
       </div>
     </header>

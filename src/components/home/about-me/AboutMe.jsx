@@ -8,6 +8,7 @@ export default function AboutMe() {
           Junior Software Developer
           <br />
         </h2>
+        <p>JavaScript • React • Node.js • MongoDB • SoftUni Graduate</p>
       </header>
       <p>
         Junior Software Developer with over two years of academic experience
