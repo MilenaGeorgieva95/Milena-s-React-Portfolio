@@ -49,12 +49,6 @@ export default function Navigation() {
             >
               Skills and Technologies
             </Link>
-            <Link
-              to="/certificates"
-              className="text-sm/6 font-semibold text-gray-900"
-            >
-              Certificates
-            </Link>
           </div>
           <div className={styles.navLink + " " + styles.lastLink}>
             <Link

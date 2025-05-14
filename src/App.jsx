@@ -25,7 +25,6 @@ function App() {
           />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/skills" element={<SkillsAndTechnologies />} />
-          <Route path="/certificates" element={<Certificates />} />
         </Routes>
       </div>
       <Footer />

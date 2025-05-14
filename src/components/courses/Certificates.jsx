@@ -3,7 +3,7 @@ import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router";
 
-const product = {
+const course = {
   name: "ReactJS",
   imageSrc: "/images/ReactJS-certificate.jpeg",
   certificateSrc: "https://softuni.bg/Certificates/Details/241491/e1e382b2",
@@ -41,16 +41,16 @@ export default function Certificates() {
                 <div className="grid w-full grid-cols-1 items-start gap-x-6 gap-y-8 sm:grid-cols-12 lg:gap-x-8">
                   <div className="sm:col-span-8 lg:col-span-7">
                     <h2 className="text-2xl font-bold text-gray-900 sm:pr-12">
-                      {product.name}
+                      {course.name}
                     </h2>
                   </div>
                   <Link
-                    to={product.certificateSrc}
+                    to={course.certificateSrc}
                     className="aspect-2/3 w-full bg-gray-100 object-cover sm:col-span-4 lg:col-span-5"
                   >
                     <img
-                      alt={product.imageAlt}
-                      src={product.imageSrc}
+                      alt={course.imageAlt}
+                      src={course.imageSrc}
                       className="aspect-2/3 w-full bg-gray-100 object-cover sm:col-span-4 lg:col-span-5"
                     />
                   </Link>

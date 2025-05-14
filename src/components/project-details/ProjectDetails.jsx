@@ -52,7 +52,7 @@ export default function ProjectDetails() {
               <nav>
                 <ul
                   role="list"
-                  className="mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
+                  className=" mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
                 >
                   <li>
                     <a
@@ -65,11 +65,13 @@ export default function ProjectDetails() {
                   </li>
                   <li>
                     <a
-                      href={project.codeRepo}
                       aria-current="page"
                       className="button font-medium text-gray-500 hover:text-gray-600"
+                      href={project.codeRepo}
                     >
-                      {project.name} Code
+                      <span className="p-3">
+                        {project.name} GitHub Repository
+                      </span>
                     </a>
                   </li>
                 </ul>
