@@ -6,15 +6,19 @@ const projects = [
     codeRepo: "https://github.com/MilenaGeorgieva95/Sprout-Hub",
     imageSrc: "/images/SH-posts.jpg",
     description:
-      "Sprout Hub is a modern Single Page Application built with React.js, providing an interactive platform for users to create, manage, and engage with content. The project follows best practices in front-end development.",
-    imageAlt: "Sprout Hub App overview image.",
+      "I created a gardening forum app, which provides an interactive platform for users to create, manage, and engage with content, including account creation, authentication, and session management, creating posts, likes and comments. Sprout Hub is a Single-Page ReactJS Application which connects to the SoftUni Practice Server as the Back-End and is deployed using Firebase, Docker and Google Cloud Platform",
     imagesDetails: [
       "/images/SH-register.png",
       "/images/SH-browse.png",
       "/images/SH-home.png",
     ],
-    highlights: [1, 2],
-    techUsed: "React.js, JavaScript ",
+    highlights: [
+      "Gardening Forum Single-Page App",
+      "Authentication and session management",
+      "Create, Edit, Delete own posts",
+      "Likes and Comments functionality",
+    ],
+    techUsed: "React.js, JavaScript, React-Router, UserContext, Bootstrap",
   },
   {
     id: 2,
@@ -23,15 +27,20 @@ const projects = [
     codeRepo: "https://github.com/sole-mates/sole-mates.github.io",
     imageSrc: "/images/SM-home.png",
     description:
-      "Sole Mates SPA project with REST, CRUD, Authentication and Search functionality. Implemented page.js and lit-html libraries. SPA application task from the JS Applications course @SoftUni.",
+      "I build a blog application incorporating REST, CRUD, Authentication and Search functionality as part of the JS Applications Module at SoftUni. I utilized page.js and lit-html libraries and deployed the app on GitHub Pages using Back4App as backend.",
     imageAlt: "Sole Mates App overview image.",
     imagesDetails: [
       "/images/SM-register.png",
       "/images/SM-search.png",
       "/images/SM-add-pair.png",
     ],
-    highlights: [1, 2],
-    techUsed: "Page.js, lit-html, Mocha, Chai",
+    highlights: [
+      "RESTful conditional rendering",
+      "Authentication functionality",
+      "User can Create, Edit and Delete own posts",
+      "Search products by partial match in titles",
+    ],
+    techUsed: "JavaScript, Page.js, Lit-Html, Back4App, Mocha, Chai",
   },
 ];
 
