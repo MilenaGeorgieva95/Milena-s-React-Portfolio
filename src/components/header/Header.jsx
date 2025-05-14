@@ -3,17 +3,12 @@ import ContactLinks from "../contact-links/contactLinks";
 
 export default function Header() {
   return (
-    <header id="header" className="y-10">
+    <header id="header" className="y-2">
       <div className="inner">
-        <Link href="#" className="image avatar">
+        <p className="image avatar ">
           <img src="/images/avatar.jpg" alt="avatar image" />
-        </Link>
-        <h1>
-          <strong>I am Milena Georgieva </strong>
-          <br />
-          Juniour Software Developer with solid grounding in React.js,
-          JavaScript and SPA applications.
-        </h1>
+        </p>
+        <h2>Hi, I am Milena Georgieva</h2>
         <ContactLinks />
       </div>
     </header>

@@ -16,7 +16,7 @@ export default function ContactLinks() {
               href="https://github.com/MilenaGeorgieva95"
               className="icon brands fa-github"
             >
-              <span className="label">Github</span>
+              <span className="label">GitHub</span>
             </a>
           </li>
           <li>

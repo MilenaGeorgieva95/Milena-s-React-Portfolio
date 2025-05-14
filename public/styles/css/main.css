@@ -1864,7 +1864,7 @@ article.special {
 header p {
   color: #b2b2b2;
   position: relative;
-  margin: 0 0 1.5em 0;
+  /* margin: 0 0 1.5em 0; */
 }
 
 header h2 + p {
@@ -2701,7 +2701,7 @@ input[type="button"]:disabled,
   background-size: auto, 150%;
   color: rgba(255, 255, 255, 0.5);
   left: 0;
-  margin-top: 5em;
+  margin-top: 3em;
   padding: 8em 4em;
   position: fixed;
   text-align: right;
@@ -2722,7 +2722,6 @@ input[type="button"]:disabled,
   -webkit-flex-grow: 1;
   -ms-flex-grow: 1;
   flex-grow: 1;
-  margin: 0 0 2em 0;
 }
 
 #header strong,
@@ -3104,8 +3103,8 @@ body.is-touch .poptrox-popup .closer {
   /* Header */
 
   #header {
-    padding: 6em 3em 3em 3em;
-    width: 30%;
+    padding: 6em 0em 3em em;
+    width: 20%;
   }
 
   #header h1 {
@@ -3133,7 +3132,7 @@ body.is-touch .poptrox-popup .closer {
   /* Main */
 
   #main {
-    margin-left: 30%;
+    margin-left: 20%;
     max-width: none;
     padding: 6em 3em 3em 3em;
     width: calc(100% - 30%);
