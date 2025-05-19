@@ -1,3 +1,6 @@
+.CVPageContainer {
+  color: black;
+}
 .cvTitle {
   text-align: center;
 }
@@ -14,8 +17,53 @@
   line-height: single;
   margin: 6px;
 }
+.linksContainer a span {
+  color: #0b57d0;
+}
 
 .linksContainer img {
   max-width: 25px;
   display: inline;
+}
+
+.educationSection span {
+  font-weight: 600;
+}
+
+.CVPageContainer section {
+  margin-top: 2em;
+}
+
+.CVPageContainer h2,
+.CVPageContainer h3,
+.CVPageContainer h4 {
+  color: black;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.CVPageContainer section p {
+  margin: auto;
+}
+
+.CVPageContainer ul {
+  margin: auto;
+}
+
+.CVPageContainer ul h5 {
+  font-weight: 700;
+  color: black;
+  margin: auto;
+}
+.CVPageContainer ul li {
+  list-style: disc;
+  color: black;
+}
+.CVPageContainer ul ul > li {
+  list-style: circle;
+  color: black;
+}
+
+.educationElement {
+  margin-top: 1em;
 }
