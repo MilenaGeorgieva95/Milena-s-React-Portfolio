@@ -1,0 +1,21 @@
+.cvTitle {
+  text-align: center;
+}
+.linksContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.linksContainer p {
+  line-height: single;
+  margin: 0;
+}
+.linksContainer span {
+  line-height: single;
+  margin: 6px;
+}
+
+.linksContainer img {
+  max-width: 25px;
+  display: inline;
+}

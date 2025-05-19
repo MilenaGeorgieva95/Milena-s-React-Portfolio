@@ -49,6 +49,12 @@ export default function Navigation() {
             >
               Skills and Technologies
             </Link>
+                        <Link
+              to="/cv"
+              className="text-sm/6 font-semibold text-gray-900"
+            >
+              CV
+            </Link>
           </div>
           <div className={styles.navLink + " " + styles.lastLink}>
             <Link
