@@ -78,3 +78,11 @@
 .educationElement>p {
   font-weight: 700;
 }
+
+.downloadBtn{
+   background-color: rgb(35, 138, 230);
+   color:#fff;
+   padding: 25;
+   display: inline-block;
+   border: 2px solid green;
+}

@@ -3,6 +3,13 @@ import styles from "./CVPage.module.css";
 export default function CVPage() {
   return (
     <div className={styles.CVPageContainer}>
+      <div className="button btn btn-success">
+        <a href="/MGeorgievaCV.pdf" download>
+          {" "}
+          <i className="fa fa-download me-2" />
+          {" "} Download CV
+        </a>
+      </div>
       <h2 className={styles.cvTitle}>Milena Georgieva</h2>
 
       <section className={styles.linksContainer}>
@@ -265,6 +272,7 @@ export default function CVPage() {
           </li>
         </ul>
       </section>
+
     </div>
   );
 }
