@@ -49,7 +49,7 @@ export default function CVPage() {
       </section>
       <section>
         <h3>Profile</h3>
-        <p>
+        <div>
           Junior Software Developer with over two years of academic experience
           creating projects and solving tasks using HTML, CSS, ReactJS,
           JavaScript, Node.js and Express. Currently at the end of a Full-Stack
@@ -60,14 +60,14 @@ export default function CVPage() {
           and excellent organizational skills. Proficient English speaker with a
           positive approach to tasks, working well under pressure, deadline
           orientated, ambitious with a hands on approach.
-        </p>
+        </div>
       </section>
       <section className={styles.educationSection}>
         <h3>Education and Qualifications</h3>
         <div className={styles.educationElement}>
           <p>March 2023 - Present</p>
           <h4>Software University (SoftUni)| JavaScript Web Developer</h4>
-          <p>
+          <div>
             At SoftUni, I developed modern, practical programming skills under
             the guidance of tutors who lead real-world software development
             teams. I gained knowledge in best coding practices, Object-Oriented
@@ -75,7 +75,7 @@ export default function CVPage() {
             handling. I worked on multiple Single-Page Application projects
             using JavaScript, ReactJS, and RESTful APIs focusing on real-world
             scenarios such as building forums and e-commerce platforms.
-          </p>
+          </div>
           <ul>
             <li>
               <h5>Key Projects:</h5>
@@ -164,6 +164,106 @@ export default function CVPage() {
       </section>
       <section>
         <h3>Professional Experience</h3>
+        <div className={styles.educationElement}>
+          <p>June 2016 - Jan 2023</p>
+          <h4>Specsavers, Coventry | Optical Assistant</h4>
+          <ul>
+            <li>
+              Organised appointments, managed time efficiently preparing
+              paperwork, pretesting and frame styling.
+            </li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <p>Apr 2014 - June 2016</p>
+          <h4>McDonald's, Coventry | Shift-Manager</h4>
+          <ul>
+            <li>
+              Supervised and set targets to a team, aiming to meet customer
+              expectations and personal growth goals.
+            </li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <p>Sept 2013 - Sept 2014</p>
+          <h4>Assistant Producer | The English Theatre of Rome, Rome, Italy</h4>
+          <ul>
+            <li>
+              Key responsibilities: Marketing and Design, Costume Design,
+              Website and Social Media Manager, Lights Operator, Decor Design.
+            </li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <p>Apr 2010 - June 2014</p>
+          <h4>Pomorie, Bulgaria | Hotel Receptionist</h4>
+          <ul>
+            <li>
+              Booked in guests, tracked reservations, developed problem solving
+              and organisational skills.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h3>Professional Skills</h3>
+        <ul>
+          <li>
+            <span>Web Developer Software: </span>
+            Knowledge in JavaScript, React.js, Node.js, NPM, Express, MongoDB,
+            Mongoose, Atlas, MySQL, MySQL Workbench, HTML, CSS, Bootstrap,
+            Tailwind.
+          </li>
+          <li>
+            <span>Programming concepts: </span>
+            Excellent understanding in AJAX, REST, Object-Oriented Programming,
+            database management, cloud computing, GitBash and GitHub.
+          </li>
+          <li>
+            <span>Microsoft Office: </span>
+            Word, Excel, PowerPoint, Teams, Outlook.
+          </li>
+          <li>
+            <span>Design Skills: </span>
+            Strong ground in UI/UX design techniques, Photoshop, Illustrator and
+            Figma.
+          </li>
+          <li>
+            <span>Management: </span>
+            Shift-manager in a retail company.
+          </li>
+          <li>
+            <span>Licenses: </span>
+            British passport.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>Languages</h3>
+        <ul>
+          <li>
+            <span>English: </span>
+            Full professional proficiency
+          </li>
+          <li>
+            <span>Bulgarian: </span>
+            Native speaker
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>Interests and Activities</h3>
+        <ul>
+          <li>
+            <span>Drawing: </span>
+            Competed in several competitions, winning one international and two
+            national awards
+          </li>
+          <li>
+            <span>Warwick Dragon Boat Festival (2019): </span>
+            Participated in a rowing race for charity
+          </li>
+        </ul>
       </section>
     </div>
   );

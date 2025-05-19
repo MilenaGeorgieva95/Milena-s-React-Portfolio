@@ -1,6 +1,10 @@
 .CVPageContainer {
   color: black;
 }
+
+.CVPageContainer section ul span{
+    font-weight: 600;
+}
 .cvTitle {
   text-align: center;
 }
@@ -41,6 +45,10 @@
   font-weight: 700;
   line-height: 1.5;
 }
+.CVPageContainer h3{
+    font-size: 1.6em;
+    margin-bottom:0;
+}
 
 .CVPageContainer section p {
   margin: auto;
@@ -66,4 +74,7 @@
 
 .educationElement {
   margin-top: 1em;
+}
+.educationElement>p {
+  font-weight: 700;
 }
