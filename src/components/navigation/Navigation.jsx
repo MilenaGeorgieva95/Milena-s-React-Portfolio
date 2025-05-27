@@ -32,26 +32,26 @@ export default function Navigation() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <div className={styles.navLink}>
-            <Link to="/" className="text-sm/6 font-semibold text-gray-900">
+            <Link to="/"  className="button font-medium text-gray-500 hover:text-gray-600">
               Home
             </Link>
           </div>
           <div className={styles.navLinksGroup}>
             <Link
               to="/projects"
-              className="text-sm/6 font-semibold text-gray-900"
+              className="button font-medium text-gray-500 hover:text-gray-600"
             >
               Projects
             </Link>
             <Link
               to="/skills"
-              className="text-sm/6 font-semibold text-gray-900"
+              className="button font-medium text-gray-500 hover:text-gray-600 border-none"
             >
               Skills and Technologies
             </Link>
-                        <Link
+            <Link
               to="/cv"
-              className="text-sm/6 font-semibold text-gray-900"
+              className="button font-medium text-gray-500 hover:text-gray-600"
             >
               CV
             </Link>
@@ -59,7 +59,7 @@ export default function Navigation() {
           <div className={styles.navLink + " " + styles.lastLink}>
             <Link
               to="/contacts"
-              className="text-sm/6 font-semibold text-gray-900"
+               className="button font-medium text-gray-500 hover:text-gray-600"
             >
               Contacts
             </Link>
@@ -85,7 +85,7 @@ export default function Navigation() {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
+              <div className="space-y-2 py-6" onClick={() => setMobileMenuOpen(false)}>
                 <Disclosure as="div" className="-mx-3">
                   <DisclosurePanel className="mt-2 space-y-2"></DisclosurePanel>
                 </Disclosure>

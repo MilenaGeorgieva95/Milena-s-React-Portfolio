@@ -18,9 +18,37 @@ export default function ProjectDetails() {
         <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
           {project.name}
         </h1>
-
+        <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
+          <div className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+            <nav>
+              <ul
+                role="list"
+                className=" mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
+              >
+                <li>
+                  <a
+                    href={project.deployedLink}
+                    aria-current="page"
+                    className="button font-medium text-gray-500 hover:text-gray-600"
+                  >
+                    {project.name} Link
+                  </a>
+                </li>
+                <li>
+                  <a
+                    aria-current="page"
+                    className="button font-medium text-gray-500 hover:text-gray-600"
+                    href={project.codeRepo}
+                  >
+                    GitHub Repo
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
         {/* Image gallery */}
-        <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
+        <div className="mx-auto m-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
           <img
             alt={project.name}
             src={project.imageSrc}
@@ -47,38 +75,6 @@ export default function ProjectDetails() {
 
         {/* project info */}
         <div className="mx-auto max-w-2xl px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto_auto_1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24">
-          <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-            <div className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-              <nav>
-                <ul
-                  role="list"
-                  className=" mx-auto flex max-w-2xl items-center space-x-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
-                >
-                  <li>
-                    <a
-                      href={project.deployedLink}
-                      aria-current="page"
-                      className="button font-medium text-gray-500 hover:text-gray-600"
-                    >
-                      {project.name} Link
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      aria-current="page"
-                      className="button font-medium text-gray-500 hover:text-gray-600"
-                      href={project.codeRepo}
-                    >
-                      <span className="p-3">
-                        {project.name} GitHub Repository
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
           <div className="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pr-8 lg:pb-16">
             {/* Description and details */}
             <div>
