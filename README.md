@@ -1,5 +1,14 @@
 # Milena-s-React-Portfolio
 
+- Link to deployed website: [https://milena-s-react-portfolio.web.app](https://milena-s-react-portfolio.web.app)
+
+## Featured Projects
+- [Sprout Hub](https://sprout-hub-458309.web.app/posts)
+- [Veluxe Motors](https://veluxe-motors.web.app/)
+- [Sole Mates](https://sole-mates.github.io/)
+---
+
+  
 ## Table Of Contents
 
 - [Description](#description)
@@ -12,18 +21,14 @@
 
 ## Description
 
-"Milena's React Portfolio" is an initial scaffolding of my portfolio website, built from scratch using React. The app aims to show potential employers my skills and projects.
+"Milena's React Portfolio" is an initial scaffolding of my portfolio website, built using React. The app aims to show potential employers my skills and projects.
 
 ---
 
 ## Installation
 
-- Link to deployed website: https://MilenaGeorgieva95.github.io/Milena-s-React-Portfolio/
-
----
-
 - Clone the GitHub repository to your computer.
-- Navigate to your terminal and use the following command "npm install create-react-app".
+- Navigate to your terminal and use the following command "npm install".
 - Navigate to your terminal and use the following command "npm start".
 
 ---
@@ -42,18 +47,15 @@
 
 ## Usage
 
-- The portfolio contains these components - App, Navigation bar, Home page, About me page, Projects page and Contact page.
-- I used mobile-first design.
+- The portfolio contains these components - App, Navigation bar, Home page, About me page, Projects page, Project details page and Contact page.
 - The app has links to my LinkedIn Profile, GitHub Profile, email address, CV and latest projects(links to deployed website and GitHub repo).
 - The App has all components and render all necessary child components.
 - When the app is open the "Home" page is displayed by default.
-- The Header is rendering across every page component of the site and contains a Navbar.
+- The Header is rendering across every page component of the site and contains contact links.
 - The Navbar is using "burger menu" when the page size is shrinked.
-- The Project page shows catalog of my latest projects. Each project section contains project title, link to deployed website, GitHub repo and link to the project's details page.
+- The Project page shows catalog of my latest projects and leads to project details page on click. Each project details page contains project title, link to deployed website, GitHub repo and project overview images.
 - The "About Me" section shows my up to date CV and download icon button (leading to my CV).
 - The "Skills" section lists my the technical skills.
-- "Contact Me" page has a form , when a user types their names, emails and messages, the button will display a message: "Form Submitted". Currently, the form is not yet functional.
-- The app has a Footer as well, where the user can find icons leading to my GitHub account, LinkedIn account and my email address.
 - User experience is intuitive and easy to navigate.
 
 ---
