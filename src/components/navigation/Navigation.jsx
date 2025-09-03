@@ -18,48 +18,42 @@ export default function Navigation() {
     <section className={styles.sectionContainer}>
       <nav
         aria-label="Global"
-        className={"mx-auto flex items-center justify-between p-6 lg:px-8 "}
+        className={"mx-auto p-6 lg:px-8 "+styles.popoverGroup}
       >
         <div className="flex lg:hidden">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 rounded-md p-2.5 text-gray-700"
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon aria-hidden="true" className="size-6" />
           </button>
         </div>
-        <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+        <PopoverGroup className={"hidden lg:flex lg:gap-x-12 "+styles.popoverGroup}>
           <div className={styles.navLink}>
-            <Link to="/"  className="button font-medium text-gray-500 hover:text-gray-600">
-              Home
+            <Link to="/"  className={styles.homeBtn}>
+              MILENA'S PORTFOLIO
             </Link>
           </div>
           <div className={styles.navLinksGroup}>
             <Link
               to="/projects"
-              className="button font-medium text-gray-500 hover:text-gray-600"
             >
               Projects
             </Link>
             <Link
               to="/skills"
-              className="button font-medium text-gray-500 hover:text-gray-600 border-none"
             >
               Skills and Technologies
             </Link>
             <Link
               to="/cv"
-              className="button font-medium text-gray-500 hover:text-gray-600"
             >
               CV
             </Link>
-          </div>
-          <div className={styles.navLink + " " + styles.lastLink}>
-            <Link
+                        <Link
               to="/contacts"
-               className="button font-medium text-gray-500 hover:text-gray-600"
             >
               Contacts
             </Link>

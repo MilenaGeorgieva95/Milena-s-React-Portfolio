@@ -1,2 +1,7 @@
 @import url('./styles/reset.css');
+@import url('./styles/fonts.css');
 @import "tailwindcss";
+
+body{
+    background-image: url('../public/images/backgrounds/gradient3.jpg');
+}

@@ -1,23 +1,43 @@
-.sectionContainer a {
-  border: none;
-  color: #00000099;
+.sectionContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 1rem 0;
 }
+
 .navLinksGroup {
   width: 100%;
   display: flex;
-
-  margin: 0 20px;
-  max-width: 40%;
+  margin: 0.4rem 0.7rem;
   flex-grow: 5;
+  justify-content: space-between;
 }
 .navLink {
   margin: 0 40px;
   flex-grow: 1;
-}
-.lastLink {
-  text-align: end;
+  max-width: 30%;
 }
 
 .navLinksGroup a {
   text-decoration: none;
+  font-size: 2em;
+  font-family: "Roboto";
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+}
+
+.homeBtn {
+  font-size: 30px;
+  font-family: "Kode_Mono";
+  line-height: 1.5;
+  letter-spacing: 10px;
+  font-weight: 200;
+  width: fit-content;
+  align-self: left;
+}
+
+.popoverGroup {
+  width: 100%;
 }
