@@ -1,0 +1,77 @@
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projectsContainer h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #fff;
+}
+
+.projectsWrapper div {
+  min-width: 60%;
+
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  font-family: "Roboto";
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.detailsBtn {
+  background-color: #3e6ae1;
+  color: #fff;
+  padding: 18px 30px;
+  display: inline-block;
+  min-width: 200px;
+  border-radius: 6px;
+  margin: 5px 0;
+  text-align: center;
+  font-size: 20px;
+  min-width: 250px;
+}
+
+.githubBtn {
+  background-color: #fff;
+  color: #393c41;
+}
+
+.projectCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectsWrapper section {
+  background-color: #ffffff5e;
+  margin: 0.3rem;
+  padding: 1.3rem;
+  border-radius: 20px;
+  max-width: 800px;
+}
+
+.projectsWrapper h3 {
+  font-size: 30px;
+  font-family: "Kode_Mono";
+  font-weight: 200;
+  margin-bottom: 0.4rem;
+}
+
+.projectCard img {
+  border-radius: 10px;
+}
+
+.projectCard li span{
+text-decoration: underline;
+color: #1e3f98;
+}
