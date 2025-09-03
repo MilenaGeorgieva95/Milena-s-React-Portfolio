@@ -8,19 +8,22 @@ export default function AboutMe() {
           Junior Software Developer
           <br />
         </h2>
-        <p>JavaScript • React • Node.js • MongoDB • SoftUni Graduate</p>
+        <p>
+          Angular • TypeScript • React • JavaScript • Node.js • MongoDB •
+          SoftUni Graduate
+        </p>
       </header>
       <p>
-        Junior Software Developer with over two years of academic experience
-        creating projects and solving tasks using HTML, CSS, ReactJS,
-        JavaScript, Node.js and Express. Currently at the end of a Full-Stack
-        JavaScript Web Developer program at SoftUni. Experienced in working with
-        databases such as MongoDB and MySQL, version control with GitHub, and
-        styling with Tailwind, CSS, and Bootstrap. Eager to contribute to
-        collective success, through innovation, hard work, attention to detail
-        and excellent organizational skills. Proficient English speaker with a
-        positive approach to tasks, working well under pressure, deadline
-        orientated, ambitious with a hands on approach.
+        Junior Software Developer with 2+ years of academic experience in
+        building projects and solving tasks using Angular, ReactJS, TypeScript,
+        JavaScript, HTML, CSS, Node.js, and Express. Certified JavaScript Web
+        Developer (SoftUni Graduate, A+ / 6.00) with hands-on experience in
+        MongoDB, MySQL, GitHub version control, and modern styling frameworks
+        including Tailwind, Angular Material, and Bootstrap. Passionate about
+        contributing to team success through innovation, attention to detail,
+        and problem-solving skills. Strong communicator and proficient English
+        speaker, able to perform under pressure and meet deadlines with a
+        positive, ambitious, and proactive mindset.
       </p>
     </section>
   );

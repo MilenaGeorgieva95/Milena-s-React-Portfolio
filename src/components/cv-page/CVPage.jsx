@@ -3,6 +3,13 @@ import styles from "./CVPage.module.css";
 export default function CVPage() {
   return (
     <div className={styles.CVPageContainer}>
+      <div className="inner">
+        <p className="image avatar-img ">
+          <img src="/images/avatar-img.jpg" alt="avatar-img image" />
+        </p>
+        <h2>Hi, I am Milena Georgieva</h2>
+        <p>Junior Software Developer</p>
+      </div>
       <div className="button btn btn-success">
         <a href="/MGeorgievaCV.pdf" download>
           {" "}

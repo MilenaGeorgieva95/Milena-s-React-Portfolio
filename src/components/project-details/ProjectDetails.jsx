@@ -7,10 +7,6 @@ import { useParams } from "react-router";
 export default function ProjectDetails() {
   const { projectId } = useParams();
   const project = projects.find((el) => el.id == projectId);
-  console.log(projectId);
-  console.log(projects);
-
-  console.log(project);
 
   return (
     <div className="bg-white">

@@ -5,6 +5,7 @@ const tiers = [
     name: "Frameworks and Libraries",
     id: "tier-frameworks",
     features: [
+      "Angular",
       "React.js",
       "Express",
       "Express-Handlebars",
@@ -19,6 +20,7 @@ const tiers = [
     name: "Skills",
     id: "tier-skills",
     features: [
+      "TypeScript",
       "JavaScript",
       "NodeJS",
       "CSS",
