@@ -41,3 +41,9 @@
 .popoverGroup {
   width: 100%;
 }
+
+.popoverGroup svg{
+  margin: 0 2rem;
+  color: #fff;
+  height: 30px;
+}

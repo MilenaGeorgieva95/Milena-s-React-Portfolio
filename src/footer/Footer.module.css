@@ -1,0 +1,13 @@
+.footer {
+  padding: 20px;
+  font-size: 18px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-attachment: scroll;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+}

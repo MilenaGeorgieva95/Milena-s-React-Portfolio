@@ -20,7 +20,7 @@ export default function Navigation() {
         aria-label="Global"
         className={"mx-auto p-6 lg:px-8 "+styles.popoverGroup}
       >
-        <div className="flex lg:hidden">
+        <div className={"flex lg:hidden "+styles.burgerBtn}>
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
@@ -45,7 +45,7 @@ export default function Navigation() {
             <Link
               to="/skills"
             >
-              Skills and Technologies
+              Skills
             </Link>
             <Link
               to="/cv"
@@ -99,7 +99,7 @@ export default function Navigation() {
                   to="/skills"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Skills and Technologies
+                  Skills
                 </Link>
                 <Link
                   to="/cv"

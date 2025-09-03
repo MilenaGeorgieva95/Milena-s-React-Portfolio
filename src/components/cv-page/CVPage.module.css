@@ -1,5 +1,6 @@
 .CVPageContainer {
   color: black;
+  font-size: 20px;
 }
 
 .CVPageContainer section ul span{
@@ -7,10 +8,23 @@
 }
 .cvTitle {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
+
+.linksWrapper{
+  flex-grow: 2;
+}
+
 .linksContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1.2rem;
+  padding-right: 15px;
+}
+
+.linksContainer div{
+margin: 0.3rem 0;
 }
 
 .linksContainer p {
@@ -22,6 +36,8 @@
   margin: 6px;
 }
 .linksContainer a span {
+  display: flex;
+  justify-content: space-between;
   color: #0b57d0;
 }
 
@@ -34,8 +50,12 @@
   font-weight: 600;
 }
 
-.CVPageContainer section {
-  margin-top: 2em;
+.CVPageContainer >section {
+  margin-top: 1em;
+  background-color: #ffffff49;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
 }
 
 .CVPageContainer h2,
@@ -67,9 +87,8 @@
   list-style: disc;
   color: black;
 }
-.CVPageContainer ul ul > li {
-  list-style: circle;
-  color: black;
+.CVPageContainer ul li {
+  list-style: none;
 }
 
 .educationElement {
@@ -82,7 +101,19 @@
 .downloadBtn{
    background-color: rgb(35, 138, 230);
    color:#fff;
-   padding: 25;
+   padding: 10px;
    display: inline-block;
    border: 2px solid green;
+   border-radius: 6px;
+   margin: 5px 0;
+}
+
+.headerSection{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar img{
+  max-height: 200px;
+  border-radius: 30%;
 }
