@@ -1,4 +1,4 @@
-body{
+body {
   line-height: 1.5;
 }
 
@@ -29,16 +29,16 @@ h2 {
   padding: 20px;
   background-color: #80fb0c;
   text-align: right;
-max-width: 30%;
-text-align: left;
-margin-left: 20px;
-border-radius: 0 20px 0 0;
+  max-width: 30%;
+  text-align: left;
+  margin-left: 20px;
+  border-radius: 0 20px 0 0;
 }
 
 @media (max-width: 400px) {
-.section-title{
-  max-width: 100%;
-  margin-left: 0;
-  text-align: center;
-}
+  .section-title {
+    max-width: 90%;
+    margin-left: 0;
+    text-align: center;
+  }
 }

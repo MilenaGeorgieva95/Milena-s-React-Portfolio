@@ -20,7 +20,7 @@ export default function RecentWork() {
                   <h3>{project.name}</h3>
                   <div class={styles.description}>
                   <p >{project.description}</p>
-                  <div>Details</div>
+                  <div>Details &#8594;</div>
                   </div>
 
                 </div>
@@ -34,7 +34,7 @@ export default function RecentWork() {
       </div>
       <ul>
         <li>
-          <Link to="/projects" className="button">
+          <Link to="/projects" className="section-title">
             Full Portfolio
           </Link>
         </li>

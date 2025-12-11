@@ -24,10 +24,10 @@
 
 .projectCardInfo h3 {
   text-decoration: none;
-  font-size: 4em;
-  font-family: "Roboto";
+  font-size: 3em;
+  font-family: "Kode_Mono";
   font-weight: 200;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   padding: 20px 0;
   color: #fff;
   border: 3px solid #4f7aeb;
@@ -70,4 +70,5 @@
   .projectCardImg {
     max-width: 100%;
   }
+
 }
