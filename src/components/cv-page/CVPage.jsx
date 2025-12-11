@@ -6,10 +6,10 @@ export default function CVPage() {
       <div class={styles.headerSection}>
         <div className={styles.avatar}>
           <p className="image avatar-img ">
-            <img src="/images/avatar-img.jpg" alt="avatar-img image" />
+            <img src="/images/avatar-sqr.jpg" alt="avatar-img image" />
           </p>
           <h2>Hi, I am Milena Georgieva</h2>
-          <p>Junior Software Developer</p>
+          <p>Junior Front-End Developer</p>
           <div className={styles.downloadBtn}>
             <a href="/MGeorgievaCV.pdf" download>
               {" "}
@@ -18,7 +18,6 @@ export default function CVPage() {
           </div>
         </div>
         <div class={styles.linksWrapper}>
-        <h2 className={styles.cvTitle}>Milena Georgieva's CV</h2>
         <section className={styles.linksContainer}>
           <div className={styles.linksSection}>
             <p>
@@ -27,7 +26,7 @@ export default function CVPage() {
             </p>
             <p>
               <i class="fa fa-phone-alt" aria-hidden="true" />
-              <span>0877514363</span>
+              <span>+359 877514363</span>
             </p>
             <p>
               <i class="fa fa-envelope" aria-hidden="true" />
@@ -68,8 +67,8 @@ export default function CVPage() {
         <h3>Profile</h3>
         <div>
           Junior Software Developer with over two years of academic experience
-          creating projects and solving tasks using HTML, CSS, ReactJS,
-          JavaScript, Node.js and Express. Currently at the end of a Full-Stack
+          creating projects and solving tasks using Angular, TypeScript, React,
+          JavaScript, Node.js, Express, HTML and CSS. Recent graduate of the
           JavaScript Web Developer program at SoftUni. Experienced in working
           with databases such as MongoDB and MySQL, version control with GitHub,
           and styling with Tailwind, CSS, and Bootstrap. Eager to contribute to
@@ -79,11 +78,31 @@ export default function CVPage() {
           orientated, ambitious with a hands on approach.
         </div>
       </section>
+            <section className={styles.educationSection}>
+        <h3>My Recent Projects</h3>
+        <div className={styles.educationElement}>
+          <p>March 2023 - September 2025</p>
+              <ul>
+                <li>
+                  <span>Veluxe Motors: </span>Using React, I made a car rental
+                  app that offers an interactive platform enabling users to
+                  create car listings, make bookings, search for available
+                  vehicles by location, set up accounts, manage their profiles,
+                  and interact with content such as special offers and
+                  memberships.
+                </li>
+              </ul>
+              <h5>Key Modules: </h5>
+              React.js, JS Back-End, HTML and CSS, MySQL, JS Applications, JS
+              Advanced, Programming Fundamentals with JavaScript, Programming
+              Basics with JavaScript
+        </div>
+      </section>
       <section className={styles.educationSection}>
         <h3>Education and Qualifications</h3>
         <div className={styles.educationElement}>
-          <p>March 2023 - Present</p>
-          <h4>Software University (SoftUni)| JavaScript Web Developer</h4>
+          <p>March 2023 - September 2025</p>
+          <h4>Software University (SoftUni) | Front-End Developer with JavaScript</h4>
           <div>
             At SoftUni, I developed modern, practical programming skills under
             the guidance of tutors who lead real-world software development

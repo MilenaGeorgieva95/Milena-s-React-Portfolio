@@ -5,7 +5,7 @@ import styles from "./Projects.module.css";
 export default function Projects() {
   return (
     <div className={styles.projectsContainer}>
-      <h2>MY PROJECTS</h2>
+      <h2 class="section-title">MY PROJECTS</h2>
       <div className={styles.projectsWrapper}>
         {projects.map((project) => (
           <div className={styles.projectCard}>

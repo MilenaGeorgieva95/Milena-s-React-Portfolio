@@ -1,21 +1,18 @@
 .projectsContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
+  background-color: #fff;
+  color: #fff;
 }
 
 .projectsContainer h2 {
-  font-size: 24px;
-  margin-bottom: 1rem;
-  font-family: "Roboto";
-  font-weight: 300;
-  color: #fff;
+  margin-left: 3rem;
 }
 
 .projectsWrapper div {
   min-width: 60%;
-
   margin-bottom: 1rem;
   padding: 1rem;
   border-radius: 20px;
@@ -29,7 +26,7 @@
 }
 
 .detailsBtn {
-  background-color: #3e6ae1;
+  background-color: #131b31;
   color: #fff;
   padding: 18px 30px;
   display: inline-block;
@@ -50,10 +47,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 1rem 0;
+  background-color: #5e6095;
 }
 
 .projectsWrapper section {
-  background-color: #ffffff5e;
   margin: 0.3rem;
   padding: 1.3rem;
   border-radius: 20px;
@@ -65,13 +63,14 @@
   font-family: "Kode_Mono";
   font-weight: 200;
   margin-bottom: 0.4rem;
+  color: #fff;
 }
 
 .projectCard img {
   border-radius: 10px;
 }
 
-.projectCard li span{
-text-decoration: underline;
-color: #1e3f98;
+.projectCard li span {
+  text-decoration: underline;
+  color: #1e3f98;
 }
