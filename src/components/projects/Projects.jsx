@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 class="section-title">MY PROJECTS</h2>
       <div className={styles.projectsWrapper}>
         {projects.map((project) => (
-          <div className={styles.projectCard}>
+          <div className={styles.card + ' '+styles.projectCard}>
             <section>
               <Link
                 key={project.id}
@@ -20,7 +20,7 @@ export default function Projects() {
               </Link>
             </section>
 
-            <section class={styles.detailsSection}>
+            <section class={styles.details + ' '+styles.detailsSection }>
               <div class={styles.projectLinks}>
                 <ul>
                   <li>

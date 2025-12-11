@@ -5,7 +5,6 @@ import Navigation from "./components/navigation/Navigation";
 import Footer from "./footer/Footer";
 import Projects from "./components/projects/Projects";
 import ProjectDetails from "./components/project-details/ProjectDetails";
-import Contacts from "./components/contacts/Contacts";
 import SkillsAndTechnologies from "./components/skills-and-technologies/SkillsAndTechnologies";
 import CVPage from "./components/cv-page/CvPage";
 
@@ -21,7 +20,6 @@ function App() {
             path="projects/:projectId/details"
             element={<ProjectDetails />}
           />
-          <Route path="/contacts" element={<Contacts />} />
           <Route path="/cv" element={<CVPage/>} />
           <Route path="/skills" element={<SkillsAndTechnologies />} />
         </Routes>

@@ -43,20 +43,15 @@ export default function Navigation() {
             >
               PROJECTS
             </Link>
-            <Link
-              to="/skills"
-            >
-              SKILLS
-            </Link>
-            <Link
+                        <Link
               to="/cv"
             >
               CV
             </Link>
-                        <Link
-              to="/contacts"
+            <Link
+              to="/skills"
             >
-              CONTACTS
+              SKILLS
             </Link>
           </div>
         </PopoverGroup>
@@ -96,24 +91,19 @@ export default function Navigation() {
                 >
                   Projects
                 </Link>
-                <Link
-                  to="/skills"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                >
-                  Skills
-                </Link>
-                <Link
+                                <Link
                   to="/cv"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   CV
                 </Link>
                 <Link
-                  to="/contacts"
+                  to="/skills"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  Contacts
+                  Skills
                 </Link>
+
               </div>
             </div>
           </div>
