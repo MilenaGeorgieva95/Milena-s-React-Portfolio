@@ -1,10 +1,17 @@
 .sectionContainer {
-  color: white;
+  color: #aaa;
+
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
-  margin: 1rem 0;
+
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: #1c1c1c;
+  border-radius: 0 0 10px 10px;
 }
 
 .navLinksGroup {
@@ -12,24 +19,27 @@
   display: flex;
   margin: 0.4rem 0.7rem;
   flex-grow: 5;
+  padding-right: 3rem;
   justify-content: space-between;
 }
 .navLink {
   margin: 0 40px;
   flex-grow: 1;
   max-width: 30%;
+  padding-top: 0.4rem;
 }
 
 .navLinksGroup a {
   text-decoration: none;
-  font-size: 2em;
-  font-family: "Roboto";
-  font-weight: 500;
+  font-size: 1em;
+  font-family: "Kode_Mono";
+  font-weight: 200;
+  letter-spacing: 3px;
   padding: 1rem 1.5rem;
 }
 
 .homeBtn {
-  font-size: 30px;
+  font-size: 1em;
   font-family: "Kode_Mono";
   line-height: 1.5;
   letter-spacing: 10px;
@@ -42,7 +52,7 @@
   width: 100%;
 }
 
-.popoverGroup svg{
+.popoverGroup svg {
   margin: 0 2rem;
   color: #fff;
   height: 30px;

@@ -15,7 +15,8 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <section className={styles.sectionContainer}>
+    <section className={styles.sectionContainer} >
+    <div className={"page-content " + styles.wrapper}>
       <nav
         aria-label="Global"
         className={"mx-auto p-6 lg:px-8 "+styles.popoverGroup}
@@ -40,12 +41,12 @@ export default function Navigation() {
             <Link
               to="/projects"
             >
-              Projects
+              PROJECTS
             </Link>
             <Link
               to="/skills"
             >
-              Skills
+              SKILLS
             </Link>
             <Link
               to="/cv"
@@ -55,7 +56,7 @@ export default function Navigation() {
                         <Link
               to="/contacts"
             >
-              Contacts
+              CONTACTS
             </Link>
           </div>
         </PopoverGroup>
@@ -118,6 +119,7 @@ export default function Navigation() {
           </div>
         </DialogPanel>
       </Dialog>
+      </div>
     </section>
   );
 }
