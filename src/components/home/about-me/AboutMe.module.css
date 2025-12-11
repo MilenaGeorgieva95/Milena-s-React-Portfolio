@@ -4,7 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 2rem;
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 .introCard div {
   padding: 2rem;
@@ -22,6 +22,7 @@
 
 .introCard header p {
   padding: 1.5rem 0;
+  font-family: sans-serif;
 }
 
 .avatarCard {
