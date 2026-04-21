@@ -1,0 +1,141 @@
+.projectPage {
+  background: #121212;
+  color: #e5e5e5;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.projectHeader {
+  max-width: 1100px;
+  margin: 0 auto 30px auto;
+}
+
+.projectTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  padding: 0;
+}
+
+.projectLink {
+  color: #bdbdbd;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #1e1e1e;
+  transition: 0.25s ease;
+}
+
+.projectLink:hover {
+  background: #2a2a2a;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.projectGallery {
+  max-width: 1100px;
+  margin: 0 auto 50px auto;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.sideImages {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sideImages img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.tallImage {
+  grid-column: span 2;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-top: 16px;
+}
+
+.projectInfo {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.descriptionBlock h3,
+.highlightsBlock h3,
+.techBlock h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9a9a9a;
+  margin-bottom: 10px;
+}
+
+.descriptionBlock p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+.highlightsBlock ul {
+  list-style: disc;
+  padding-left: 18px;
+}
+
+.highlightsBlock li {
+  margin-bottom: 8px;
+  color: #cfcfcf;
+}
+
+.techBlock p {
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .projectGallery {
+    grid-template-columns: 1fr;
+  }
+
+  .projectInfo {
+    grid-template-columns: 1fr;
+  }
+
+  .sideImages {
+    flex-direction: row;
+  }
+
+  .sideImages img {
+    height: 180px;
+  }
+
+  .tallImage {
+    height: 250px;
+  }
+}
