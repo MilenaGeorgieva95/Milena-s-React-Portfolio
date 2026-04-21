@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #f0f8ff;
+  align-items: center ;
   color: #000;
 }
 
@@ -14,7 +14,7 @@
   width: 100%;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: #5e6095;
+  background-color: #aaaaaa50;
 }
 
 .projectCardInfo {
@@ -24,14 +24,14 @@
 
 .projectCardInfo h3 {
   text-decoration: none;
-  font-size: 3em;
+  font-size: 4em;
   font-family: "Kode_Mono";
   font-weight: 200;
   letter-spacing: 3px;
   padding: 20px 0;
   color: #fff;
-  border: 3px solid #4f7aeb;
-  padding: 0 10px;
+  border: 3px solid black;
+  padding: 10px 30px;
   margin-bottom: 10px;
   width: fit-content;
 }

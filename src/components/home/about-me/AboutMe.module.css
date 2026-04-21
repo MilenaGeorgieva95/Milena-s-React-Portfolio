@@ -5,18 +5,17 @@
   flex-wrap: wrap;
   margin-bottom: 2rem;
   letter-spacing: 1px;
+  line-height: 1.5;
 }
 .introCard div {
   padding: 2rem;
-  width: 60%;
   min-width: 250px;
 }
 
 .introCard h2 {
   text-decoration: none;
   font-size: 1.8em;
-  font-family: "Roboto";
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 3px;
 }
 
@@ -25,18 +24,9 @@
   font-family: sans-serif;
 }
 
-.avatarCard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 40%;
-}
+
 @media (max-width: 400px) {
   .introCard div {
-    width: 100%;
-  }
-  .avatarCard {
-    order: -1;
     width: 100%;
   }
   .introCard {

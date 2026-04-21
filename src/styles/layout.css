@@ -1,8 +1,10 @@
 body {
   line-height: 1.5;
+  font-family: "Roboto";
+  background-color: black;
 }
 
-h2 {
+h1, h2, h3, h4 {
   font-size: 24px;
   margin-top: 1rem;
   font-family: "Roboto";
@@ -21,24 +23,20 @@ h2 {
 
 .section-title {
   text-decoration: none;
-  font-size: 1.5em;
-  font-family: "Roboto";
-  font-weight: 400;
-  letter-spacing: 3px;
+  font-size: 1.4em;
+  font-family: "Kode_Mono";
+  font-weight: 200;
+  letter-spacing: 5px;
   color: #fff;
-  padding: 20px;
-  background-color: #80fb0c;
-  text-align: right;
-  max-width: 30%;
-  text-align: left;
-  margin-left: 20px;
-  border-radius: 0 20px 0 0;
+  padding: 20px 60px;
+  background-color: #1c1c1c;
+  text-align: center;
+  border-radius: 18px 18px 0 0;
 }
 
 @media (max-width: 400px) {
   .section-title {
     max-width: 90%;
     margin-left: 0;
-    text-align: center;
   }
 }

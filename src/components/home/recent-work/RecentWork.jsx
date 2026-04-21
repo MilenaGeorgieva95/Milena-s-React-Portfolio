@@ -5,7 +5,7 @@ import styles from "./RecentWork.module.css";
 export default function RecentWork() {
   return (
     <section class={styles.wrapper}>
-      <h2 class="section-title">My Latest Projects</h2>
+      <h2 class="section-title">PROJECTS</h2>
       <div>
         {projects.map((project) => {
           return (
@@ -32,13 +32,6 @@ export default function RecentWork() {
           );
         })}
       </div>
-      <ul>
-        <li>
-          <Link to="/projects" className="section-title">
-            Full Portfolio
-          </Link>
-        </li>
-      </ul>
     </section>
   );
 }
