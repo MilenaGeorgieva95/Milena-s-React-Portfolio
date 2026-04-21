@@ -55,3 +55,71 @@
   color: #fff;
   height: 30px;
 }
+
+.mobilePanel {
+  background: #1b1b1b;
+  color: #e5e5e5;
+
+  width: 100%;
+  max-width: 340px;
+
+  box-shadow: -12px 0 30px rgba(0, 0, 0, 0.45);
+  border-left: 1px solid #2a2a2a;
+
+  animation: slideIn 0.25s ease-out;
+}
+
+.mobilePanel button {
+  color: #d6d6d6;
+  transition: 0.2s ease;
+}
+
+.mobilePanel button:hover {
+  color: #ffffff;
+}
+
+.mobileMenu {
+  margin-top: 25px;
+}
+
+.mobileMenuInner {
+  border-top: 1px solid #2a2a2a;
+  padding-top: 18px;
+}
+
+.mobileMenuLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobileLink {
+  display: block;
+  padding: 12px 14px;
+  border-radius: 10px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #cfcfcf;
+
+  text-decoration: none;
+
+  transition: all 0.25s ease;
+}
+
+.mobileLink:hover {
+  background: #2a2a2a;
+  color: #ffffff;
+  transform: translateX(5px);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
