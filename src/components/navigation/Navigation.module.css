@@ -18,7 +18,7 @@
   margin: 0.4rem 0.7rem;
   flex-grow: 5;
   padding-right: 3rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 .navLink {
   margin: 0 40px;

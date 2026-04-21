@@ -6,7 +6,7 @@ const projects = [
     codeRepo: "https://github.com/MilenaGeorgieva95/CineZone",
     imageSrc: "/images/CZ-movies.png",
     description:
-      "CineZone is a modern Single Page Application (SPA) built with Angular. It functions as a community forum and watchlist manager that leverages the TMDB API for dynamic movie data and Back4App (Parse Server) for user authentication, watchlist storage, likes, and comments",
+      "Built a movie community and watchlist application using Angular. Integrated TMDB API for dynamic movie data. Implemented authentication, comments, likes, and watchlist features using Back4App. Focus: API integration, state management, user interaction.",
     imagesDetails: [
       "/images/CZ-watchlists.png",
       "/images/CZ-watchlist-details.png",
@@ -29,7 +29,7 @@ const projects = [
     codeRepo: "https://github.com/MilenaGeorgieva95/Sprout-Hub",
     imageSrc: "/images/SH-posts.jpg",
     description:
-      "I created a gardening forum app, which provides an interactive platform for users to create, manage, and engage with content, including account creation, authentication, and session management, creating posts, likes and comments. Sprout Hub is a Single-Page ReactJS Application which connects to the SoftUni Practice Server as the Back-End and is deployed using Firebase, Docker and Google Cloud Platform",
+      "Developed a gardening forum platform with full user authentication. Implemented posts, categories, likes, and comments system. Used Back4App for backend services and Firebase for deployment. Focus: React components, authentication flow, CRUD operations.",
     imagesDetails: [
       "/images/SH-register.png",
       "/images/SH-browse.png",
@@ -50,7 +50,7 @@ const projects = [
     codeRepo: "https://github.com/MilenaGeorgieva95/Veluxe-Motors",
     imageSrc: "/images/VM-home.png",
     description:
-      "Using ReactJS, I made a car rental app that offers an interactive platform enabling users to create car listings, make bookings, search for available vehicles by location, set up accounts, manage their profiles, and interact with content such as special offers and memberships.",
+      "Built a car rental marketplace application. Implemented search filters, booking system, and user accounts. Designed responsive UI with focus on usability and clean UX. Focus: React routing, filtering logic, UI/UX design.",
     imagesDetails: [
       "/images/VM-appointment.png",
       "/images/VM-car-details.png",
