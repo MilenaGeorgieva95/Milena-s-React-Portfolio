@@ -2,17 +2,17 @@
   color: black;
   font-size: 20px;
   width: 100%;
-    max-width: 1200px;
+  max-width: 1200px;
 }
 
-.CVPageContainer section ul span{
-    font-weight: 600;
+.CVPageContainer section ul span {
+  font-weight: 600;
 }
 .cvTitle {
   text-align: center;
 }
 
-.linksWrapper{
+.linksWrapper {
   flex-grow: 2;
 }
 
@@ -24,8 +24,8 @@
   padding-right: 15px;
 }
 
-.linksContainer div{
-margin: 0.3rem 0;
+.linksContainer div {
+  margin: 0.3rem 0;
 }
 
 .linksContainer p {
@@ -51,9 +51,9 @@ margin: 0.3rem 0;
   font-weight: 600;
 }
 
-.CVPageContainer >section {
+.CVPageContainer > section {
   margin-top: 1em;
-  background-color: #f0f0f0;
+  background-color: #ffffffdb;
   padding: 20px;
   margin: 20px 0;
   border-radius: 10px;
@@ -65,9 +65,9 @@ margin: 0.3rem 0;
   font-weight: 700;
   line-height: 1.5;
 }
-.CVPageContainer h3{
-    font-size: 1.6em;
-    margin-bottom:0;
+.CVPageContainer h3 {
+  font-size: 1.6em;
+  margin-bottom: 0;
 }
 
 .CVPageContainer section p {
@@ -94,21 +94,41 @@ margin: 0.3rem 0;
 .educationElement {
   margin-top: 1em;
 }
-.educationElement>p {
+.educationElement > p {
   font-weight: 700;
 }
 
-.downloadBtn{
-   background-color: rgb(35, 138, 230);
-   color:#fff;
-   padding: 10px;
-   display: inline-block;
-   border: 2px solid green;
-   border-radius: 6px;
-   margin: 5px 0;
+
+.cvBtns {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.cvBtns div {
+  padding: 8px 18px;
+  margin: 5px 0;
+  text-align: center;
+  background-color: rgb(35, 138, 230);
+  color: #042b6a;
+  flex-grow: 1;
 }
 
-.headerSection{
+.cvBtns div:focus,  .cvBtns div:hover{
+cursor: pointer;
+flex-grow: 2;
+color: #fff;
+background-color: #0b57d0;
+}
+
+
+.viewBtn {
+  flex-grow: 1;
+}
+.downloadBtn {
+  flex-grow: 1;
+}
+
+.headerSection {
   display: flex;
   flex-wrap: wrap;
   color: #fff;
@@ -116,7 +136,7 @@ margin: 0.3rem 0;
   max-width: 1200px;
 }
 
-.avatar img{
+.avatar img {
   max-height: 200px;
   border-radius: 50%;
 }

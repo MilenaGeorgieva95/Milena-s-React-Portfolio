@@ -10,295 +10,245 @@ export default function CVPage() {
           </p>
           <h2>Hi, I am Milena Georgieva</h2>
           <p>Junior Front-End Developer</p>
-          <div className={styles.downloadBtn}>
-            <a href="/MGeorgievaCV.pdf" download>
-              {" "}
-              <i className="fa fa-download me-2" /> Download CV
-            </a>
-          </div>
+
         </div>
         <div class={styles.linksWrapper}>
-        <section className={styles.linksContainer}>
-          <div className={styles.linksSection}>
-            <p>
-              <i class="fa fa-home" aria-hidden="true" />
-              <span>Sofia, Bulgaria</span>
-            </p>
-            <p>
-              <i class="fa fa-phone-alt" aria-hidden="true" />
-              <span>+359 877514363</span>
-            </p>
-            <p>
-              <i class="fa fa-envelope" aria-hidden="true" />
-              <span>mgeorgieva95@yahoo.com </span>
-            </p>
-          </div>
-          <div className={styles.linksSection}>
-            <p>
+          <section className={styles.linksContainer}>
+            <div className={styles.linksSection}>
+              <p>
+                <i class="fa fa-home" aria-hidden="true" />
+                <span>Sofia, Bulgaria</span>
+              </p>
+              <p>
+                <i class="fa fa-phone-alt" aria-hidden="true" />
+                <span>+359 877514363</span>
+              </p>
+              <p>
+                <i class="fa fa-envelope" aria-hidden="true" />
+                <span>mgeorgieva95@yahoo.com </span>
+              </p>
+            </div>
+            <div className={styles.linksSection}>
+              <p>
+                <a
+                  className="icon brands fa-linkedin"
+                  aria-hidden="true"
+                  href="https://www.linkedin.com/in/milena-georgieva95"
+                >
+                  <span>https://www.linkedin.com/in/milena-georgieva95</span>
+                </a>
+              </p>
+              <p>
+                <a
+                  class="icon brands fa-github"
+                  aria-hidden="true"
+                  href="https://github.com/MilenaGeorgieva95"
+                >
+                  <span>https://github.com/MilenaGeorgieva95</span>
+                </a>
+              </p>
+              <p>
+                <a href="https://milena-s-react-portfolio.web.app">
+                  {/* <img src="/images/icons/dev-svgrepo-com.svg" alt="" /> */}
+                  <span>https://milena-s-react-portfolio.web.app</span>
+                </a>
+              </p>
+            </div>
+          </section>
+                  <div className={styles.cvBtns}>
+            {" "}
+            <div className={styles.viewBtn}>
               <a
-                className="icon brands fa-linkedin"
-                aria-hidden="true"
-                href="https://www.linkedin.com/in/milena-georgieva95"
+                href="/MGeorgievaCV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span>https://www.linkedin.com/in/milena-georgieva95</span>
+                {" "}
+                <i className="fa fa-download me-2" /> View CV
               </a>
-            </p>
-            <p>
-              <a
-                class="icon brands fa-github"
-                aria-hidden="true"
-                href="https://github.com/MilenaGeorgieva95"
-              >
-                <span>https://github.com/MilenaGeorgieva95</span>
+            </div>
+            <div className={styles.downloadBtn}>
+              <a href="/MGeorgievaCV.pdf" download>
+                {" "}
+                <i className="fa fa-download me-2" /> Download CV
               </a>
-            </p>
-            <p>
-              <a href="https://milena-s-react-portfolio.web.app">
-                {/* <img src="/images/icons/dev-svgrepo-com.svg" alt="" /> */}
-                <span>https://milena-s-react-portfolio.web.app</span>
-              </a>
-            </p>
+            </div>
           </div>
-        </section>
         </div>
-
       </div>
       <section>
-        <h3>Profile</h3>
+        <h3>PROFILE</h3>
         <div>
-          Junior Software Developer with over two years of academic experience
-          creating projects and solving tasks using Angular, TypeScript, React,
-          JavaScript, Node.js, Express, HTML and CSS. Recent graduate of the
-          JavaScript Web Developer program at SoftUni. Experienced in working
-          with databases such as MongoDB and MySQL, version control with GitHub,
-          and styling with Tailwind, CSS, and Bootstrap. Eager to contribute to
-          collective success, through innovation, hard work, attention to detail
-          and excellent organizational skills. Proficient English speaker with a
-          positive approach to tasks, working well under pressure, deadline
-          orientated, ambitious with a hands on approach.
-        </div>
-      </section>
-            <section className={styles.educationSection}>
-        <h3>My Recent Projects</h3>
-        <div className={styles.educationElement}>
-          <p>March 2023 - September 2025</p>
-              <ul>
-                <li>
-                  <span>Veluxe Motors: </span>Using React, I made a car rental
-                  app that offers an interactive platform enabling users to
-                  create car listings, make bookings, search for available
-                  vehicles by location, set up accounts, manage their profiles,
-                  and interact with content such as special offers and
-                  memberships.
-                </li>
-              </ul>
-              <h5>Key Modules: </h5>
-              React.js, JS Back-End, HTML and CSS, MySQL, JS Applications, JS
-              Advanced, Programming Fundamentals with JavaScript, Programming
-              Basics with JavaScript
+          Junior Front-End Developer with strong hands-on experience building
+          modern Single Page Applications using Angular, React, JavaScript, and
+          Node.js. Graduate of SoftUni (JavaScript Web Developer program) with
+          practical experience in REST APIs, authentication systems, and
+          full-stack application architecture. Comfortable working with Git,
+          databases (MongoDB, MySQL), and responsive UI frameworks such as
+          Tailwind and Bootstrap. Passionate about building clean, user-friendly
+          web applications and continuously improving development skills.
         </div>
       </section>
       <section className={styles.educationSection}>
-        <h3>Education and Qualifications</h3>
+        <h3>TECHNICAL SKILLS</h3>
         <div className={styles.educationElement}>
-          <p>March 2023 - September 2025</p>
-          <h4>Software University (SoftUni) | Front-End Developer with JavaScript</h4>
-          <div>
-            At SoftUni, I developed modern, practical programming skills under
-            the guidance of tutors who lead real-world software development
-            teams. I gained knowledge in best coding practices, Object-Oriented
-            and Functional Programming, database architecture and error
-            handling. I worked on multiple Single-Page Application projects
-            using JavaScript, ReactJS, and RESTful APIs focusing on real-world
-            scenarios such as building forums and e-commerce platforms.
-          </div>
           <ul>
             <li>
-              <h5>Key Projects:</h5>
-              <ul>
-                <li>
-                  <span>Sprout Hub: </span>I created a gardening forum app,
-                  which provides an interactive platform for users to create,
-                  manage, and engage with content, including account creation,
-                  authentication, and session management, creating posts, likes
-                  and comments. Sprout Hub is a Single-Page ReactJS Application
-                  which connects to the SoftUni Practice Server as the Back-End
-                  and is deployed using Firebase, Docker and Google Cloud
-                  Platform.
-                </li>
-                <li>
-                  <span>Veluxe Motors: </span>Using ReactJS, I made a car rental
-                  app that offers an interactive platform enabling users to
-                  create car listings, make bookings, search for available
-                  vehicles by location, set up accounts, manage their profiles,
-                  and interact with content such as special offers and
-                  memberships.
-                </li>
-                <li>
-                  <span>Sole Mates: </span>I build a blog application
-                  incorporating REST, CRUD, Authentication and Search
-                  functionality as part of the JS Applications Module at
-                  SoftUni. I utilized page.js and lit-html libraries and
-                  deployed the app on GitHub Pages.
-                </li>
-                <li>
-                  <span>MagmaHaven: </span>I created a Multi-Page Application
-                  using Express, Express-Handlebars and Node.js as part of the
-                  JS Back-End Module at SoftUni and connected it to MongoDB with
-                  Mongoose. To manage the user data, I used Bcrypt, JsonWebToken
-                  and cookie-parser enabling secure registration and
-                  login/logout functionality.
-                </li>
-              </ul>
+              <span>Frontend:</span> HTML5, CSS3, JavaScript (ES6+), TypeScript,
+              React.js, Angular
             </li>
             <li>
-              <h5>Key Modules: </h5>
-              React.js, JS Back-End, HTML and CSS, MySQL, JS Applications, JS
-              Advanced, Programming Fundamentals with JavaScript, Programming
-              Basics with JavaScript
-            </li>
-          </ul>
-        </div>
-        <div className={styles.educationElement}>
-          <p>Oct 2022 - Mar 2023</p>
-          <h4>UDEMY | Web Developer Bootcamp</h4>
-          <ul>
-            <li>
-              I gained knowledge of core programming concepts and understanding
-              of how key technologies integrate to build modern applications.
+              <span>Styling:</span> Tailwind CSS, Bootstrap, Angular Material
             </li>
             <li>
-              Key Projects: Museum of Candy, Photo Blog, ToDo List, Score Keeper
+              <span>Backend:</span> Node.js, Express.js, REST APIs
             </li>
             <li>
-              Key Modules: JavaScript, HTML, CSS, Forms and Tables, Loops, DOM
-              Events, Flexbox, Bootstrap
+              <span>Databases:</span> MongoDB, MySQL, Mongoose
             </li>
-          </ul>
-        </div>
-        <div className={styles.educationElement}>
-          <p>June 2011 - June 2015</p>
-          <h4>Coventry University, Coventry, UK | Bachelor of Arts</h4>
-          <ul>
             <li>
-              Key Modules: Fashion Design, History of Arts, Marketing, Social
-              Media Platforms and Communication, Pattern Making and Materials
+              <span>Tools:</span> Git, GitHub, NPM, Postman
             </li>
-          </ul>
-        </div>
-        <div className={styles.educationElement}>
-          <p>Sep 2005 - May 2010</p>
-          <h4>National School of Fine Arts “Ilya Petrov” | Sofia, Bulgaria</h4>
-          <ul>
             <li>
-              A-levels equivalents: Biology (A*), Bulgarian Language and
-              Literature (A*)
+              <span>Other:</span> Firebase, Back4App, JWT Authentication, Agile
+              basics
             </li>
-            <li>AS-levels equivalents: English (A), Mathematics (A)</li>
-          </ul>
-        </div>
-      </section>
-      <section>
-        <h3>Professional Experience</h3>
-        <div className={styles.educationElement}>
-          <p>June 2016 - Jan 2023</p>
-          <h4>Specsavers, Coventry | Optical Assistant</h4>
-          <ul>
             <li>
-              Organised appointments, managed time efficiently preparing
-              paperwork, pretesting and frame styling.
-            </li>
-          </ul>
-        </div>
-        <div className={styles.educationElement}>
-          <p>Apr 2014 - June 2016</p>
-          <h4>McDonald's, Coventry | Shift-Manager</h4>
-          <ul>
-            <li>
-              Supervised and set targets to a team, aiming to meet customer
-              expectations and personal growth goals.
-            </li>
-          </ul>
-        </div>
-        <div className={styles.educationElement}>
-          <p>Sept 2013 - Sept 2014</p>
-          <h4>Assistant Producer | The English Theatre of Rome, Rome, Italy</h4>
-          <ul>
-            <li>
-              Key responsibilities: Marketing and Design, Costume Design,
-              Website and Social Media Manager, Lights Operator, Decor Design.
-            </li>
-          </ul>
-        </div>
-        <div className={styles.educationElement}>
-          <p>Apr 2010 - June 2014</p>
-          <h4>Pomorie, Bulgaria | Hotel Receptionist</h4>
-          <ul>
-            <li>
-              Booked in guests, tracked reservations, developed problem solving
-              and organisational skills.
+              <span>Licenses:</span> British passport
             </li>
           </ul>
         </div>
       </section>
+      <section className={styles.educationSection}>
+        <h3>PROJECTS</h3>
+        <div className={styles.educationElement}>
+          <h4>CineZone (Angular SPA)</h4>
+          <ul>
+            <li>
+              Built a movie community and watchlist application using Angular
+            </li>
+            <li>Integrated TMDB API for dynamic movie data</li>
+            <li>
+              Implemented authentication, comments, likes, and watchlist
+              features using Back4App
+            </li>
+            <li>Focus: API integration, state management, user interaction</li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <h4>Sprout Hub (React SPA)</h4>
+          <ul>
+            <li>
+              Developed a gardening forum platform with full user authentication
+            </li>
+            <li>Implemented posts, categories, likes, and comments system</li>
+            <li>
+              Used Back4App for backend services and Firebase for deployment
+            </li>
+            <li>
+              Focus: React components, authentication flow, CRUD operations
+            </li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <h4>Veluxe Motors (React SPA)</h4>
+          <ul>
+            <li>Built a car rental marketplace application</li>
+            <li>
+              Implemented search filters, booking system, and user accounts
+            </li>
+            <li>Designed responsive UI with focus on usability and clean UX</li>
+            <li>Focus: React routing, filtering logic, UI/UX design</li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <h4>MagmaHaven (Node.js + Express)</h4>
+          <ul>
+            <li>
+              Developed a full-stack forum application using Express and
+              Handlebars
+            </li>
+            <li>Built RESTful backend with MongoDB and Mongoose</li>
+            <li>Implemented authentication using JWT, bcrypt, and cookies</li>
+            <li>
+              Focus: Backend architecture, security, database designFocus: React
+              routing, filtering logic, UI/UX design
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section className={styles.educationSection}>
+        <h3>EDUCATION</h3>
+        <div className={styles.educationElement}>
+          <h4>Software University (SoftUni)</h4>
+          <p>JavaScript Web Developer Program (2023 - 2025)</p>
+          <ul>
+            <li>Frontend & backend development (Angular, React, Node.js)</li>
+            <li>OOP, REST APIs, databases, and SPA architecture</li>
+            <li>Real-world projects simulating production applications</li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <h4>Udemy - Web Developer Bootcamp (2022 - 2023)</h4>
+          <ul>
+            <li>HTML, CSS, JavaScript fundamentals</li>
+            <li>DOM manipulation, Flexbox, Bootstrap</li>
+            <li>Built multiple small web projects</li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <h4>Coventry University, UK</h4>
+          <p>Bachelor of Arts (2011 - 2015)</p>
+        </div>
+      </section>
       <section>
-        <h3>Professional Skills</h3>
+        <h3>PROFESSIONAL EXPERIENCE</h3>
+        <div className={styles.educationElement}>
+          <h4>Specsavers - Optical Assistant (2016 - 2023)</h4>
+          <ul>
+            <li>Managed customer appointments and workflow organization</li>
+            <li>
+              Developed communication and multitasking skills in fast-paced
+              environment
+            </li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <h4>McDonald's - Shift Manager (2014 - 2016)</h4>
+          <ul>
+            <li>Led team shifts and ensured operational targets were met</li>
+            <li>Developed leadership and time management skills</li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <h4>Assistant Producer - English Theatre of Rome (2013 - 2014)</h4>
+          <ul>
+            <li>Managed website, social media, and design materials</li>
+            <li>Assisted in production logistics and creative direction</li>
+          </ul>
+        </div>
+        <div className={styles.educationElement}>
+          <h4>Hotel Receptionist (2010 - 2014)</h4>
+          <ul>
+            <li>Managed bookings, customer service, and reservations</li>
+            <li>Built strong problem-solving and communication skills</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h3>LANGUAGES</h3>
         <ul>
-          <li>
-            <span>Web Developer Software: </span>
-            Knowledge in JavaScript, React.js, Node.js, NPM, Express, MongoDB,
-            Mongoose, Atlas, MySQL, MySQL Workbench, HTML, CSS, Bootstrap,
-            Tailwind.
-          </li>
-          <li>
-            <span>Programming concepts: </span>
-            Excellent understanding in AJAX, REST, Object-Oriented Programming,
-            database management, cloud computing, GitBash and GitHub.
-          </li>
-          <li>
-            <span>Microsoft Office: </span>
-            Word, Excel, PowerPoint, Teams, Outlook.
-          </li>
-          <li>
-            <span>Design Skills: </span>
-            Strong ground in UI/UX design techniques, Photoshop, Illustrator and
-            Figma.
-          </li>
-          <li>
-            <span>Management: </span>
-            Shift-manager in a retail company.
-          </li>
-          <li>
-            <span>Licenses: </span>
-            British passport.
-          </li>
+          <li>English - Full Professional Proficiency</li>
+          <li>Bulgarian - Native</li>
         </ul>
       </section>
       <section>
-        <h3>Languages</h3>
+        <h3>ADDITIONAL</h3>
         <ul>
-          <li>
-            <span>English: </span>
-            Full professional proficiency
-          </li>
-          <li>
-            <span>Bulgarian: </span>
-            Native speaker
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3>Interests and Activities</h3>
-        <ul>
-          <li>
-            <span>Drawing: </span>
-            Competed in several competitions, winning one international and two
-            national awards
-          </li>
-          <li>
-            <span>Warwick Dragon Boat Festival (2019): </span>
-            Participated in a rowing race for charity
-          </li>
+          <li>British Passport</li>
+          <li>Design experience (Figma, Photoshop, Illustrator)</li>
+          <li>Hobby: Drawing (international and national awards)</li>
         </ul>
       </section>
     </div>
