@@ -10,7 +10,6 @@ export default function CVPage() {
           </p>
           <h2>Hi, I am Milena Georgieva</h2>
           <p>Junior Front-End Developer</p>
-
         </div>
         <div class={styles.linksWrapper}>
           <section className={styles.linksContainer}>
@@ -55,25 +54,25 @@ export default function CVPage() {
               </p>
             </div>
           </section>
-                  <div className={styles.cvBtns}>
-            {" "}
-            <div className={styles.viewBtn}>
-              <a
-                href="/MGeorgievaCV.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <i className="fa fa-download me-2" /> View CV
-              </a>
-            </div>
-            <div className={styles.downloadBtn}>
-              <a href="/MGeorgievaCV.pdf" download>
-                {" "}
-                <i className="fa fa-download me-2" /> Download CV
-              </a>
-            </div>
-          </div>
+            <ul className={"btnLinks "+styles.cvBtns}>
+              {" "}
+              <li className="btnLink">
+                <a
+                  href="/MGeorgievaCV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i className="fa fa-download me-2" /> View CV
+                </a>
+              </li>
+              <li className="btnLink">
+                <a href="/MGeorgievaCV.pdf" download>
+                  {" "}
+                  <i className="fa fa-download me-2" /> Download CV
+                </a>
+              </li>
+            </ul>
         </div>
       </div>
       <section>

@@ -99,34 +99,10 @@
 }
 
 
-.cvBtns {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
-.cvBtns div {
-  padding: 8px 18px;
-  margin: 5px 0;
-  text-align: center;
-  background-color: rgb(35, 138, 230);
-  color: #042b6a;
-  flex-grow: 1;
-}
-
-.cvBtns div:focus,  .cvBtns div:hover{
-cursor: pointer;
-flex-grow: 2;
-color: #fff;
+.cvBtns li{
 background-color: #0b57d0;
 }
 
-
-.viewBtn {
-  flex-grow: 1;
-}
-.downloadBtn {
-  flex-grow: 1;
-}
 
 .headerSection {
   display: flex;

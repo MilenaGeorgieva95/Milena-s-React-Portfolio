@@ -12,15 +12,15 @@ export default function ProjectDetails() {
   <div className={styles.projectHeader}>
     <h1 className={styles.projectTitle}>{project.name}</h1>
 
-    <nav className={styles.projectNav}>
-      <ul className={styles.projectLinks}>
+    <nav >
+      <ul className="btnLinks">
         <li>
-          <a href={project.deployedLink} className={styles.projectLink}>
+          <a href={project.deployedLink} className="btnLink">
             Live Project
           </a>
         </li>
         <li>
-          <a href={project.codeRepo} className={styles.projectLink}>
+          <a href={project.codeRepo} className="btnLink">
             GitHub Repo
           </a>
         </li>

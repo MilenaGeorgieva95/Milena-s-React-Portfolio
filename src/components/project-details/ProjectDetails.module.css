@@ -17,29 +17,6 @@
   color: #ffffff;
 }
 
-.projectLinks {
-  display: flex;
-  gap: 18px;
-  list-style: none;
-  padding: 0;
-}
-
-.projectLink {
-  color: #bdbdbd;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 10px 14px;
-  border-radius: 10px;
-  background: #1e1e1e;
-  transition: 0.25s ease;
-}
-
-.projectLink:hover {
-  background: #2a2a2a;
-  color: #ffffff;
-  transform: translateY(-2px);
-}
-
 .projectGallery {
   max-width: 1100px;
   margin: 0 auto 50px auto;
